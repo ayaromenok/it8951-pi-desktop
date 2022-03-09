@@ -1350,7 +1350,7 @@ static const uint32_t it8951_formats[] = {
 };
 
 static const struct drm_display_mode it8951_mode = {
-	TINYDRM_MODE(800, 600, 0, 0),
+	TINYDRM_MODE(1872, 1404, 0, 0),
 };
 
 
