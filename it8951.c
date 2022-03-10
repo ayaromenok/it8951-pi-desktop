@@ -211,9 +211,10 @@ static int tinydrm_register(struct tinydrm_device *tdev)
 	if (ret)
 		return ret;
 
-	ret = drm_fbdev_generic_setup(drm, 0);
-	if (ret)
-		DRM_ERROR("Failed to initialize fbdev: %d\n", ret);
+	drm_fbdev_generic_setup(drm, 0);
+//	ret = drm_fbdev_generic_setup(drm, 0);
+//	if (ret)
+//		DRM_ERROR("Failed to initialize fbdev: %d\n", ret);
 
 	return 0;
 }
