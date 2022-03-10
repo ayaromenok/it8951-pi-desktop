@@ -1,9 +1,11 @@
 #diff
+
 - support for [7.8" e-ink display(1872x1404)](https://www.waveshare.com/wiki/7.8inch_e-Paper_HAT)
 - on rpi4 may need a Adafruit code
 ```
 get https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/rpi-pin-kernel-firmware.sh
-sudo sh rpi-pin-kernel-firmware.sh 1:1.20210527-1```
+sudo sh rpi-pin-kernel-firmware.sh 1:1.20210527-1
+```
 
 # it8951-pi-desktop
 

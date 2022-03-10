@@ -1086,7 +1086,7 @@ static struct drm_driver it8951_driver = {
 	.driver_features	= DRIVER_GEM | DRIVER_MODESET |
 	DRIVER_ATOMIC,
 	.fops			= &it8951_fops,
-	DRM_GEM_CMA_VMAP_DRIVER_OPS,
+	DRM_GEM_CMA_DRIVER_OPS,
 	.name			= "it8951",
 	.desc			= "it8951 e-ink",
 	.date			= "20190913",
